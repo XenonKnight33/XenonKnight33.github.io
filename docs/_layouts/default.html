@@ -1,53 +1,63 @@
----
----
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div id="root">
+      <div class="wrapper">
 
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.19.3 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+        {% include sidebar.html %}
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+        <div class="container">
 
-    <div class="initial-content">
-      {{ content }}
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <div align="center" style="margin: 1em 0;">
-        <ins class="adsbygoogle"
-             style="display:block; border-bottom: initial;"
-             data-ad-client="ca-pub-7328585512091257"
-             data-ad-slot="3049671934"
-             data-ad-format="auto"></ins>
+          <div class="header">
+            <h1>Jekyll Admin - {{ page.title | escape }}</h1>
+            <ul class="pull-right">
+              <li>
+                <a href="https://github.com/{{ site.github.repository_nwo }}/" target="_blank">
+                  <img
+                    src="https://img.shields.io/github/stars/jekyll/jekyll-admin.svg?style=for-the-badge&logo=github"
+                    alt="Stars for Repository at GitHub"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://rubygems.org/gems/jekyll-admin" target="_blank">
+                  <img src="https://img.shields.io/gem/v/jekyll-admin.svg?style=for-the-badge" alt="Gem">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="content">
+            {{ content }}
+
+            <div class="improve-me">
+              <small>
+                These docs are open-source.
+              </small>
+              <small>
+                You can
+                <a href="https://github.com/{{ site.github.repository_nwo }}/edit/master/docs/{{ page.path }}">
+                  edit this page on GitHub
+                </a>
+                and send us a pull request to improve it.
+              </small>
+            </div>
+          </div>
         </div>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </div>
-
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include search/search_form.html %}
       </div>
-    {% endif %}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
     </div>
-
-    {% include scripts.html %}
-
+    <script src="{{ 'assets/highlight.min.js' | relative_url }}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/javascript">
+      window.onload = function () {
+        var routes = document.querySelector('.routes')
+        var menuIcon = document.querySelector('.menu-icon')
+        menuIcon.addEventListener("click", function(e) {
+          e.preventDefault()
+          routes.classList.toggle('open')
+        });
+      };
+    </script>
   </body>
 </html>
