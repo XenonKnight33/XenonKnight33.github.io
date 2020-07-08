@@ -8,7 +8,12 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+I learned about Unity and C # since the middle of last year, taking several courses on game development, such as  2D platformers, RPG games, and also mouse-controlled 3D games.
+
+because I was excited to develop a game, I decided to develop my own game. but apparently the game that I imagined I'd build turned out to be too big. I knew it when I try to develop it.
+
+therefore starting last month, I started making simple games for cellphones and started marketing them. I hope this journey continues until I achieved my Dream. I am a great game developer in the making.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}

@@ -1,17 +1,20 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Student, Sriwijaya University
+  from: 2010
+  to: 2017
+  description: majoring in Software Engineering, here I learn about programming and Software Engineering.
+               at first, it is hard to learn programming, not until I learn about Game development.
+               Now it is a different thing. from few small games, I yearn of future that I am a great Game Developer.
 
-- title: Software Engineer, Google, UK
+- title: Contractor, Research and Technology of Higher Education
   from: 2018
+  to: 2020
+  description: doing research funded by the government for about a year. 
+                I did not proceed because in the process there was very little programming. 
+                I feel like I always want to code. in the end I convinced that programming is my life.
+
+
+- title: Game Developer
+  from: 2020
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: This is what i do now. U can see my project here, not much to expect.
+               I am a great game developer in the making.
