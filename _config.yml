@@ -2,7 +2,7 @@ title: XenonKnight
 description: Moving Forward Game Developer
 baseurl: /XenonKnight
 repository: XenonKnight33.github.io
-remote_theme: YoussefRaafatNasry/portfolYOU
+remote_theme: ''
 plugins:
   - jemoji
 nav_exclude:
