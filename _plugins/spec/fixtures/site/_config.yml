@@ -97,5 +97,3 @@ collections:
     foo: bar
     output: false
 
-plugins:
-  - jekyll-admin
